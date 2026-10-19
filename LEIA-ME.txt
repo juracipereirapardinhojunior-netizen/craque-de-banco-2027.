@@ -1,24 +1,9 @@
-CRAQUE DE BANCO — MODO CARREIRA 2027 (PACOTE WEB)
+CRAQUE DE BANCO — MODO CARREIRA 2027
 
-Conteúdo:
-- index.html: jogo
-- manifest.json e icon.svg: permitem que navegadores compatíveis ofereçam instalação na tela inicial
-- sw.js: cache para abrir novamente offline depois da primeira visita online
+Este pacote está preparado como PWA (aplicativo web instalável).
 
-TESTAR NO CELULAR:
-1. Extraia o ZIP.
-2. Abra index.html em um navegador para teste local. Algumas funções de instalação/offline só funcionam quando o jogo está publicado em HTTPS.
+IMPORTANTE: extraia o ZIP e envie TODOS os arquivos desta pasta diretamente para a raiz do seu repositório GitHub Pages, substituindo o index.html antigo quando solicitado. Não envie apenas o ZIP nem coloque os arquivos dentro de uma subpasta.
 
-COMO CRIAR UM LINK PÚBLICO GRATUITO COM GITHUB PAGES:
-1. Entre em github.com e crie uma conta ou entre na sua.
-2. Crie um repositório público chamado craque-de-banco-2027.
-3. Envie os quatro arquivos desta pasta para a raiz do repositório (index.html, manifest.json, sw.js e icon.svg).
-4. Abra Settings > Pages.
-5. Em Build and deployment, selecione Deploy from a branch; escolha a branch main e a pasta /(root); salve.
-6. Aguarde a publicação. O GitHub mostrará o link público do site nessa página. Compartilhe esse link com outras pessoas.
+Arquivos necessários: index.html, manifest.json, sw.js, icon.svg, icon-192.png e icon-512.png.
 
-IMPORTANTE:
-- Este pacote está preparado para hospedagem estática; o arquivo ainda não está publicado automaticamente na internet. É necessário fazer os passos acima ou usar outro serviço de hospedagem estática.
-- Cada jogador tem a própria carreira salva no navegador/aparelho. Limpar os dados do navegador pode apagar o save; ainda não existe sincronização entre aparelhos.
-- Elencos de 2027 são projetados, não oficiais. Alguns jogadores fictícios adicionados para completar os elencos podem aparecer identificados como fictícios.
-- O multiplayer online fica para uma versão futura e precisará de servidor/contas e regras para partidas compartilhadas.
+Depois de salvar (Commit changes), aguarde a publicação do GitHub Pages. Abra o link público no Chrome Android, atualize a página e procure no menu ⋮ por “Instalar app” ou “Adicionar à tela inicial”. Pode ser necessário fechar e reabrir o Chrome.

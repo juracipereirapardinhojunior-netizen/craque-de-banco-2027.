@@ -1,5 +1,5 @@
-const CACHE = 'craque-de-banco-2027-v1';
-const FILES = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE = 'craque-de-banco-2027-v2';
+const FILES = ['./', './index.html', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
   self.skipWaiting();
