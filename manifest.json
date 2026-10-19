@@ -1,0 +1,12 @@
+{
+  "name": "Craque de Banco — Modo Carreira 2027",
+  "short_name": "Craque de Banco",
+  "description": "Jogo de modo carreira de treinador de futebol.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071b16",
+  "theme_color": "#071b16",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

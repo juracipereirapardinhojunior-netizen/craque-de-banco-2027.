@@ -1,0 +1,24 @@
+CRAQUE DE BANCO — MODO CARREIRA 2027 (PACOTE WEB)
+
+Conteúdo:
+- index.html: jogo
+- manifest.json e icon.svg: permitem que navegadores compatíveis ofereçam instalação na tela inicial
+- sw.js: cache para abrir novamente offline depois da primeira visita online
+
+TESTAR NO CELULAR:
+1. Extraia o ZIP.
+2. Abra index.html em um navegador para teste local. Algumas funções de instalação/offline só funcionam quando o jogo está publicado em HTTPS.
+
+COMO CRIAR UM LINK PÚBLICO GRATUITO COM GITHUB PAGES:
+1. Entre em github.com e crie uma conta ou entre na sua.
+2. Crie um repositório público chamado craque-de-banco-2027.
+3. Envie os quatro arquivos desta pasta para a raiz do repositório (index.html, manifest.json, sw.js e icon.svg).
+4. Abra Settings > Pages.
+5. Em Build and deployment, selecione Deploy from a branch; escolha a branch main e a pasta /(root); salve.
+6. Aguarde a publicação. O GitHub mostrará o link público do site nessa página. Compartilhe esse link com outras pessoas.
+
+IMPORTANTE:
+- Este pacote está preparado para hospedagem estática; o arquivo ainda não está publicado automaticamente na internet. É necessário fazer os passos acima ou usar outro serviço de hospedagem estática.
+- Cada jogador tem a própria carreira salva no navegador/aparelho. Limpar os dados do navegador pode apagar o save; ainda não existe sincronização entre aparelhos.
+- Elencos de 2027 são projetados, não oficiais. Alguns jogadores fictícios adicionados para completar os elencos podem aparecer identificados como fictícios.
+- O multiplayer online fica para uma versão futura e precisará de servidor/contas e regras para partidas compartilhadas.
